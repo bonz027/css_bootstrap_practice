@@ -1,0 +1,40 @@
+.jumbotron
+.container {
+    max-width: 100%;
+}
+.jumbotron {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+    color: inherit;
+    background-color: #eee;
+}
+.container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+* {
+    box-sizing: border-box;
+}
+div {
+    display: block;
+}
+body {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    background-color: #fff;
+    
+}
+h1 {
+    font-size: 36px;
+    font-family: Hamster Script;
+}
+
+p {
+    margin: 0  10px;
+    font-family: Script;
+}
