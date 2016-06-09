@@ -30,11 +30,14 @@
     margin-bottom: 30px;
     color: inherit;
     background-color: #eee;
+    background-image: url("https://i.ytimg.com/vi/2-NPtSwQk3o/maxresdefault.jpg");
 }
 .jumbotron p{
     margin-bottom: 15px;
     font-size: 21px;
     font-weight: 200;
+    float: left;
+    color:#D0D0D0;
 }
 .container {
     padding-right: 15px;
@@ -141,6 +144,7 @@ navbar-collapse.collapse {
     border: 1px solid transparent;
     border-radius: 4px;
 }
+
 button{
     font-family: inherit;
     font-size: inherit;
@@ -187,8 +191,9 @@ div {
     display: block;
 }
 body {
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    /*font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;*/
     font-size: 14px;
+    font-family: Courier New;
     line-height: 1.42857143;
     background-color: #fff;
 }
@@ -208,11 +213,13 @@ h2 {
     font-size: 30px;
     display: block;
     font-weight: bold;
+    text-align: center;
+    font-family: fantasy;
 }
 h1, h2, h3, h4, h5, h6 {
     margin-top: 20px;
     margin-bottom: 10px;
-    font-family: inherit;
+    /*font-family: inherit;*/
     font-weight: 500;
     line-height: 1.1;
     color: inherit;
@@ -220,7 +227,8 @@ h1, h2, h3, h4, h5, h6 {
 
 p {
     margin: 0  10px;
-    font-family: script;
+    /*font-family: script;*/
+    font-family: Verdana;
     display: block;
     -webkit-margin-before: 1em;
     -webkit-margin-after: 1em;
@@ -231,3 +239,4 @@ a {
     color: #337ab7;
     text-decoration: none;
 }
+
